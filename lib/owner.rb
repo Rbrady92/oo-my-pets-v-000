@@ -57,7 +57,7 @@ class Owner
 
   def count
     @@all.length
-  end 
+  end
 
   private
 
