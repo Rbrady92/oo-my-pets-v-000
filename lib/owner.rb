@@ -34,9 +34,26 @@ class Owner
     @pets[:dogs] << dog
   end
 
+  def feed_fish
+    loop through fish and change each mood to happy
+  end 
+
+  def walk_dogs
+
+  end 
+
+  def play_with_cats
+
+  end 
+
+  def sell_pets
+    #loop through each pet arr and change moods to nervous
+    #then empty each arr (i think the pet objects will still exist, just not in the hash)
+  end   
+
   def list_pets
     puts "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
-  end 
+  end
 
   private
 
