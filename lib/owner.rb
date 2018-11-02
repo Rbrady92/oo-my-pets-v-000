@@ -54,9 +54,11 @@ class Owner
     #loop through each pet arr and change moods to nervous
     #then empty each arr (i think the pet objects will still exist, just not in the hash)
     @pets.each do |pet, names|
-      pet = []
+      names.each {|curr| curr.mood = "nervous"}
     end
 
+    @pets = {}
+    
   end
 
   def list_pets
