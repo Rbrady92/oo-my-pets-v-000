@@ -55,8 +55,8 @@ class Owner
     #then empty each arr (i think the pet objects will still exist, just not in the hash)
     @pets.each do |pet, names|
       pet = []
-    end 
-      
+    end
+
   end
 
   def list_pets
