@@ -36,20 +36,21 @@ class Owner
 
   def feed_fish
     loop through fish and change each mood to happy
-  end 
+    @pets[:fishes].each {|curr| self.mood = "happy"}
+  end
 
   def walk_dogs
-
-  end 
+    @pets[:dogs].each {|curr| self.mood = "happy"}
+  end
 
   def play_with_cats
-
-  end 
+    @pets[:cats].each {|curr| self.mood = "happy"}
+  end
 
   def sell_pets
     #loop through each pet arr and change moods to nervous
     #then empty each arr (i think the pet objects will still exist, just not in the hash)
-  end   
+  end
 
   def list_pets
     puts "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
