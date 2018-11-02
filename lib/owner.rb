@@ -36,7 +36,7 @@ class Owner
 
   def feed_fish
     loop through fish and change each mood to happy
-    @pets[:fishes].each {|curr| self.mood = "happy"}
+    @pets[:fishes].each {|curr| curr.mood = "happy"}
   end
 
   def walk_dogs
@@ -44,7 +44,7 @@ class Owner
   end
 
   def play_with_cats
-    @pets[:cats].each {|curr| curr.self.mood = "happy"}
+    @pets[:cats].each {|curr| self.mood = "happy"}
   end
 
   def sell_pets
