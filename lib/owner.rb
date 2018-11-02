@@ -60,7 +60,7 @@ class Owner
   end
 
   def self.count
-    all.length
+    @@all.length
   end
 
   private
