@@ -55,6 +55,10 @@ class Owner
     "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
   end
 
+  def count
+    @@all.length
+  end 
+
   private
 
   attr_writer :species
