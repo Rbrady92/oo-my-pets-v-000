@@ -59,7 +59,7 @@ class Owner
     "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
   end
 
-  def self.count
+  def self.count    #should work, fails bec. reset all is called just before in tests
     @@all.length
   end
 
