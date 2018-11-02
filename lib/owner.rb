@@ -59,7 +59,7 @@ class Owner
     "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
   end
 
-  def self.count
+  def count
     @@all.length
   end
 
