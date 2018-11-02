@@ -35,7 +35,6 @@ class Owner
   end
 
   def feed_fish
-    loop through fish and change each mood to happy
     @pets[:fishes].each {|curr| curr.mood = "happy"}
   end
 
