@@ -15,9 +15,9 @@ class Owner
     "I am a #{@species}."
   end
 
-  def self.all 
-    @@all 
-  end 
+  def self.all
+    @@all
+  end
 
   def reset_all
     @@all = []
